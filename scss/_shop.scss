@@ -86,6 +86,11 @@
             margin-top: 73px;
             margin-left: 50px;
             margin-bottom: 40px;
+            &:hover {
+                background-color: #1F1F1F;
+                transition: .5s ease-in;
+                color: crimson;
+            }
         }
     }
 }
