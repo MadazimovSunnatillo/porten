@@ -1,0 +1,23 @@
+.brand {
+    background-color: #0F0F0F;
+    color: #fff;
+    padding-top: 60px;
+    h2 {
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $font-playfair;
+        padding-bottom: 40px;
+    }
+    span {
+        margin-left: 530px;
+    }
+    .brands {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 80px;
+
+    }
+}
