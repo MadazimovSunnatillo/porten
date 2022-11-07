@@ -330,19 +330,17 @@ footer .footer .email form {
 }
 footer .footer .email form input {
   padding: 12px 0;
-  width: 210px;
+  width: 250px;
   background: rgba(255, 255, 255, 0.4);
+  padding-left: 1rem;
 }
 footer .footer .email form input::-moz-placeholder {
-  padding-left: 1rem;
   color: #D0D0D0;
 }
 footer .footer .email form input:-ms-input-placeholder {
-  padding-left: 1rem;
   color: #D0D0D0;
 }
 footer .footer .email form input::placeholder {
-  padding-left: 1rem;
   color: #D0D0D0;
 }
 footer .footer .email form button {
