@@ -1,0 +1,90 @@
+.shopping {
+    background-color: #000;
+    color: #fff;
+    h3 {
+        padding-top: 93px;
+        padding-left: 250px;
+        padding-bottom: 20px;
+    }
+    span {
+        padding-left: 252px;
+    }
+    .collection{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.about-left__section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .watch {
+        margin-right: 50px;
+        img {
+            padding: 55px 23px;
+            background-color: #191B1C;
+            margin-bottom: 25px;
+        }
+        h5 {
+            padding-bottom: 10px;
+            font-family: $font-playfair;
+            font-size: 18px;
+            line-height: 21px;
+        }
+        h6 {
+            font-family: 'Playfair Display';
+            font-size: 16px;
+            line-height: 19px;
+            color: #D0D0D0;
+        }
+    }
+}
+
+.shop2 {
+    background-color: #000;
+    color: #fff;
+    .show {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 150px;
+        .shop-right__section {
+            padding-top: 100px;
+        }
+        h3 {
+            font-family: 'Playfair Display';
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 40px;
+        }
+        span {
+            padding-left: 170px;
+        }
+        p {
+            padding-top: 40px;
+            font-family: $font-playfair;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            text-align: center;
+            width: 460px;
+        }
+        a {
+            padding: 10px 30px;
+            border: 1px solid #fff;
+            display: inline-block;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-top: 73px;
+            margin-left: 50px;
+        }
+    }
+}
